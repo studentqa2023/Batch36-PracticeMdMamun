@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.practice.ParameterTestng">
+      <class name="com.testng.practice.PracticeAssertion">
         <methods>
-          <include name="practiceparameter"/>
+          <include name="getSum"/>
         </methods>
-      </class> <!-- com.testng.practice.ParameterTestng -->
+      </class> <!-- com.testng.practice.PracticeAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

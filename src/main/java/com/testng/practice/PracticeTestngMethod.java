@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PracticeTestngMethod {
 	
-	@Test(priority=0, groups= {"smoke"})
+	@Test(priority=0, groups= {"smoke"},invocationCount = 5)
 	public void getlogin() {
 		System.out.println("this is a login method");
 	}

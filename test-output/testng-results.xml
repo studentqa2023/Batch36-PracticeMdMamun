@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-31T12:32:06 EDT" name="Suite" finished-at="2023-10-31T12:32:06 EDT" duration-ms="44">
+  <suite started-at="2023-11-09T18:50:20 EST" name="Default suite" finished-at="2023-11-09T18:50:20 EST" duration-ms="42">
     <groups>
+      <group name="Regression">
+        <method signature="PracticeTestngMethod.getdress()[pri:1, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" name="getdress" class="com.testng.practice.PracticeTestngMethod"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="PracticeTestngMethod.getlogin()[pri:0, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" name="getlogin" class="com.testng.practice.PracticeTestngMethod"/>
+        <method signature="PracticeTestngMethod.getdress()[pri:1, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" name="getdress" class="com.testng.practice.PracticeTestngMethod"/>
+        <method signature="PracticeTestngMethod.getcart()[pri:2, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" name="getcart" class="com.testng.practice.PracticeTestngMethod"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-10-31T12:32:06 EDT" name="Test" finished-at="2023-10-31T12:32:06 EDT" duration-ms="44">
-      <class name="com.testng.practice.ParameterTestng">
-        <test-method signature="practiceparameter(java.lang.String,int)[pri:0, instance:com.testng.practice.ParameterTestng@fa36558]" started-at="2023-10-31T12:32:06 EDT" name="practiceparameter" finished-at="2023-10-31T12:32:06 EDT" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Smarttech]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[25]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-11-09T18:50:20 EST" name="Default test" finished-at="2023-11-09T18:50:20 EST" duration-ms="42">
+      <class name="com.testng.practice.PracticeTestngMethod">
+        <test-method signature="getlogin()[pri:0, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getlogin" finished-at="2023-11-09T18:50:20 EST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practiceparameter -->
-      </class> <!-- com.testng.practice.ParameterTestng -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getlogin -->
+        <test-method signature="getlogin()[pri:0, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getlogin" finished-at="2023-11-09T18:50:20 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlogin -->
+        <test-method signature="getlogin()[pri:0, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getlogin" finished-at="2023-11-09T18:50:20 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlogin -->
+        <test-method signature="getlogin()[pri:0, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getlogin" finished-at="2023-11-09T18:50:20 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlogin -->
+        <test-method signature="getlogin()[pri:0, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getlogin" finished-at="2023-11-09T18:50:20 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlogin -->
+        <test-method signature="getdress()[pri:1, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getdress" finished-at="2023-11-09T18:50:20 EST" depends-on-methods="com.testng.practice.PracticeTestngMethod.getlogin" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdress -->
+        <test-method signature="getcart()[pri:2, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getcart" finished-at="2023-11-09T18:50:20 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcart -->
+        <test-method signature="getplceorder()[pri:4, instance:com.testng.practice.PracticeTestngMethod@7c1e2a9e]" started-at="2023-11-09T18:50:20 EST" name="getplceorder" finished-at="2023-11-09T18:50:20 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getplceorder -->
+      </class> <!-- com.testng.practice.PracticeTestngMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

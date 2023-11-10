@@ -38,7 +38,7 @@ public class CrossBrowsertestng {
 	}
 	public static void main(String[] args) {
 		 CrossBrowsertestng  obj = new  CrossBrowsertestng ();
-		obj.crossbrowserlogin("Chrome");
+		obj.crossbrowserlogin("firefox");
 	}
 	
 	

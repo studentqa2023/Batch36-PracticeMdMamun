@@ -22,4 +22,4 @@ public class CostcoPractice {
 	CostcoPractice obj = new CostcoPractice();
 	obj.getMoushover();
 }
-}
+} 
